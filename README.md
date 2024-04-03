@@ -1,3 +1,4 @@
+<p align="center">
 # **Rockbuster Sleath Data Analysis Project**
 ![Rockbuster Sleath](https://images.squarespace-cdn.com/content/v1/640f1188b5c4337eb7b9f14a/fc9add04-e9b3-4445-a35e-4a1720d8178c/Screenshot+2023-03-13+074033.png?format=1000w)
 ## Project Brief:
@@ -15,3 +16,4 @@ The Rockbuster Stealth Management Board's key business questions:
 Rockbuster dataset contains information about Rockbuster’s film inventory, film_category, film_actor, customers, payments, addresses, countries, cities, languages, staff, stores and rental information.
 
 [Tableau Public Link](https://public.tableau.com/app/profile/priyanka.karamchandani/viz/RockbusterSleathLLC2020LaunchStratergyVisualizations/RockbusterSleathLLCvisualizations?publish=yes)
+</p>
