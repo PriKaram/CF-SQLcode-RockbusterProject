@@ -1,0 +1,42 @@
+Here is SQL code with CTE to find out  top 5 customers that are based within each country:
+
+
+WITH cte_country_of_top5customers AS
+(SELECT B.customer_id,
+                  B.first_name,
+                  B.last_name,
+                  E.country,
+                  D.city,
+                  SUM(A.amount) AS highest_total_amounts_paid
+FROM payment A
+INNER JOIN customer B ON A.customer_id = B.customer_id
+INNER JOIN address C ON B.address_id = C.address_id
+INNER JOIN city D ON C.city_id = D.city_id
+INNER JOIN country E ON D.country_id = E.country_id
+WHERE D.city IN ('Aurora',
+                 'Acua',
+                 'Citrus Heights',
+                 'Iwaki',
+                 'Ambattur',
+                 'Shanwei',
+                 'So Leopoldo',
+                 'Teboksary',
+                 'Tianjin',
+                 'Cianjur') 
+GROUP BY B.customer_id,
+                     B.first_name,
+                     B.last_name,
+                     E.country,
+                     D.city
+ORDER BY SUM(A.amount) DESC
+LIMIT 5)
+SELECT E. country,
+                COUNT (DISTINCT B.customer_id) AS all_customer_count,
+	    COUNT (DISTINCT cte_country_of_top5customers) AS top_customer_count
+FROM customer B
+INNER JOIN address C ON B.address_id = C.address_id
+INNER JOIN city D ON C.city_id = D.city_id
+INNER JOIN country E ON D.country_id = E.country_id
+LEFT JOIN cte_country_of_top5customers ON B.customer_id = cte_country_of_top5customers.customer_id
+GROUP BY E.country
+ORDER BY all_customer_count DESC;
