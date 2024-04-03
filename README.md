@@ -13,4 +13,4 @@
 ## Data Set Used:
 Rockbuster dataset contains information about Rockbuster’s film inventory, film_category, film_actor, customers, payments, addresses, countries, cities, languages, staff, stores and rental information.
 
-[Tableau Public Link:](https://public.tableau.com/app/profile/priyanka.karamchandani/viz/RockbusterSleathLLC2020LaunchStratergyVisualizations/RockbusterSleathLLCvisualizations?publish=yes)
+[Tableau Public Link](https://public.tableau.com/app/profile/priyanka.karamchandani/viz/RockbusterSleathLLC2020LaunchStratergyVisualizations/RockbusterSleathLLCvisualizations?publish=yes)
