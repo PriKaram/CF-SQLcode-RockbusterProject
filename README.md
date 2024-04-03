@@ -1,5 +1,5 @@
 # **Rockbuster Sleath Data Analysis Project**
-
+![Rockbuster Sleath](https://images.squarespace-cdn.com/content/v1/640f1188b5c4337eb7b9f14a/fc9add04-e9b3-4445-a35e-4a1720d8178c/Screenshot+2023-03-13+074033.png?format=1000w)
 ## Project Brief:
 Rockbuster Stealth LLC is a movie rental company that used to have stores around the world. Facing stiff competition from streaming services such as Netflix and Amazon Prime, the Rockbuster Stealth management team is planning to use its existing movie licenses to launch an online video rental service in order to stay competitive.
 
