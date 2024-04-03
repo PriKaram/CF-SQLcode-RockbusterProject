@@ -4,13 +4,13 @@
 
 ## Key Questions and Objectives:
  1. The Rockbuster Stealth Management Board's key business questions:
-### 2. Which movies contributed the most/least to revenue gain?
-### 3. What was the average rental duration for all videos?
-### 4. Which countries are Rockbuster customers based in?
-### 5. Where are customers with a high l ifetime value based?
-### 6. Do sales figures vary between geographic regions?
+ 2. Which movies contributed the most/least to revenue gain?
+ 3. What was the average rental duration for all videos?
+ 4. Which countries are Rockbuster customers based in?
+ 5. Where are customers with a high l ifetime value based?
+ 6. Do sales figures vary between geographic regions?
 
 ## Data Set Used:
-### Rockbuster dataset contains information about Rockbuster’s film inventory, film_category, film_actor, customers, payments, addresses, countries, cities, languages, staff, stores and rental information.
+Rockbuster dataset contains information about Rockbuster’s film inventory, film_category, film_actor, customers, payments, addresses, countries, cities, languages, staff, stores and rental information.
 
 [Tableau Public Link:](https://public.tableau.com/app/profile/priyanka.karamchandani/viz/RockbusterSleathLLC2020LaunchStratergyVisualizations/RockbusterSleathLLCvisualizations?publish=yes)
