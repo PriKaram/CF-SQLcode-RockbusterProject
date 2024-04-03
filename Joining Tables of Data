@@ -1,7 +1,7 @@
 ## Here is SQL Code retriving: the top 10 countries for Rockbuster in terms of customer numbers
 The query utilizes multiple joins because the "customer" and "country" tables are not directly linked.
 To establish connections between tables, the query applies several joins: from the "customer" table ('A') to the "address" table ('B'), then from "address" to "city" ('C'), and finally from "city" to "country" ('D').
-The outcome is then grouped by the "country" column
+The outcome is then grouped by the "country" column.
 
 
 SELECT D.country,
